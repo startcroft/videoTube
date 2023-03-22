@@ -66,7 +66,96 @@ h1 {
     filter: invert(79%) sepia(1%) saturate(693%) hue-rotate(300deg) brightness(93%) contrast(87%);
 }
 
+main{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoContainerDetails{
+    width: 800px;
+    height: 550px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:first baseline;
+}
+
+figure{
+    padding: 0;
+    margin: 0;
+}
+
 .video iframe{
-    width: 849px;
-    height: 477px;
+    width: 800px;
+    height: 428px;
+}
+
+.containerInfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characteristics{
+ color: white;
+ width: 700px;
+}
+
+.titleVideo{
+    color: white;
+    margin: 0;
+}
+
+.chanelProfile{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.chanel{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}
+
+.videoInfo{
+display: flex;
+flex-wrap: wrap;
+}
+
+.miniaturaList{
+    width: 195px;
+    height: 109px;
+    margin-right: 20px;
+}
+
+.infoList{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.videoCard{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.profileList{
+    border-radius: 100%;
+}
+
+.sugeridos{
+    width: 420px;
+    flex-basis: 420px;
+}
+
+.suggested{
+    width: 420px;
+    margin-left: 25px;
+}
+
+h3{
+    margin-top: 0;
 }
